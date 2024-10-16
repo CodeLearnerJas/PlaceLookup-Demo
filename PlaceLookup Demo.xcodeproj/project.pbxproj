@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6A2C6B6E2CBF3EA4001BB848 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C6B6A2CBF3EA4001BB848 /* ContentView.swift */; };
+		6A2C6B6F2CBF3EA4001BB848 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C6B6B2CBF3EA4001BB848 /* LocationManager.swift */; };
+		6A2C6B702CBF3EA4001BB848 /* PlaceLookup_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C6B6C2CBF3EA4001BB848 /* PlaceLookup_DemoApp.swift */; };
+		6A2C6B712CBF3EA4001BB848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C6B672CBF3EA4001BB848 /* Preview Assets.xcassets */; };
+		6A2C6B722CBF3EA4001BB848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C6B692CBF3EA4001BB848 /* Assets.xcassets */; };
+		6A2C6B742CBF5081001BB848 /* PlaceLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C6B732CBF5081001BB848 /* PlaceLookupView.swift */; };
+		6A2C6B762CBF5270001BB848 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C6B752CBF5270001BB848 /* Place.swift */; };
+		6A2C6B782CBF5D02001BB848 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C6B772CBF5D02001BB848 /* PlaceViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6A2C6B492CBF350D001BB848 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +38,17 @@
 		6A2C6B382CBF350C001BB848 /* PlaceLookup Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlaceLookup Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2C6B482CBF350D001BB848 /* PlaceLookup DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlaceLookup DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2C6B522CBF350D001BB848 /* PlaceLookup DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlaceLookup DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C6B672CBF3EA4001BB848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A2C6B692CBF3EA4001BB848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A2C6B6A2CBF3EA4001BB848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A2C6B6B2CBF3EA4001BB848 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6A2C6B6C2CBF3EA4001BB848 /* PlaceLookup_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLookup_DemoApp.swift; sourceTree = "<group>"; };
+		6A2C6B732CBF5081001BB848 /* PlaceLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLookupView.swift; sourceTree = "<group>"; };
+		6A2C6B752CBF5270001BB848 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		6A2C6B772CBF5D02001BB848 /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6A2C6B3A2CBF350C001BB848 /* PlaceLookup Demo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "PlaceLookup Demo";
-			sourceTree = "<group>";
-		};
 		6A2C6B4B2CBF350D001BB848 /* PlaceLookup DemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "PlaceLookup DemoTests";
@@ -75,7 +89,7 @@
 		6A2C6B2F2CBF350C001BB848 = {
 			isa = PBXGroup;
 			children = (
-				6A2C6B3A2CBF350C001BB848 /* PlaceLookup Demo */,
+				6A2C6B6D2CBF3EA4001BB848 /* PlaceLookup Demo */,
 				6A2C6B4B2CBF350D001BB848 /* PlaceLookup DemoTests */,
 				6A2C6B552CBF350D001BB848 /* PlaceLookup DemoUITests */,
 				6A2C6B392CBF350C001BB848 /* Products */,
@@ -92,6 +106,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6A2C6B682CBF3EA4001BB848 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A2C6B672CBF3EA4001BB848 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A2C6B6D2CBF3EA4001BB848 /* PlaceLookup Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6A2C6B682CBF3EA4001BB848 /* Preview Content */,
+				6A2C6B692CBF3EA4001BB848 /* Assets.xcassets */,
+				6A2C6B6C2CBF3EA4001BB848 /* PlaceLookup_DemoApp.swift */,
+				6A2C6B6A2CBF3EA4001BB848 /* ContentView.swift */,
+				6A2C6B732CBF5081001BB848 /* PlaceLookupView.swift */,
+				6A2C6B6B2CBF3EA4001BB848 /* LocationManager.swift */,
+				6A2C6B752CBF5270001BB848 /* Place.swift */,
+				6A2C6B772CBF5D02001BB848 /* PlaceViewModel.swift */,
+			);
+			path = "PlaceLookup Demo";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				6A2C6B3A2CBF350C001BB848 /* PlaceLookup Demo */,
 			);
 			name = "PlaceLookup Demo";
 			packageProductDependencies = (
@@ -212,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2C6B712CBF3EA4001BB848 /* Preview Assets.xcassets in Resources */,
+				6A2C6B722CBF3EA4001BB848 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2C6B6E2CBF3EA4001BB848 /* ContentView.swift in Sources */,
+				6A2C6B6F2CBF3EA4001BB848 /* LocationManager.swift in Sources */,
+				6A2C6B742CBF5081001BB848 /* PlaceLookupView.swift in Sources */,
+				6A2C6B702CBF3EA4001BB848 /* PlaceLookup_DemoApp.swift in Sources */,
+				6A2C6B782CBF5D02001BB848 /* PlaceViewModel.swift in Sources */,
+				6A2C6B762CBF5270001BB848 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +441,8 @@
 				DEVELOPMENT_TEAM = 92Y266UM5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow PlaceLookup to access your device's location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow PlaceLookup to access your device's location?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +472,8 @@
 				DEVELOPMENT_TEAM = 92Y266UM5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow PlaceLookup to access your device's location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow PlaceLookup to access your device's location?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
